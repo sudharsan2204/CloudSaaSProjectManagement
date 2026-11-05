@@ -1,0 +1,7 @@
+services:
+  saas-project-management:
+    build: .
+    container_name: cloud-saas-platform
+    ports:
+      - "5055:5055"
+    restart: unless-stopped
